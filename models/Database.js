@@ -1,3 +1,5 @@
+const mongoose = require('mongoose');
+
 const account = {
   user: "admin",
   password: "password",
@@ -14,4 +16,4 @@ const connectToDatabase = () => {
 }
 
 
-module.exports = connectToDatabase();
+module.exports = connectToDatabase;
