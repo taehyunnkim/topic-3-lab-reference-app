@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 
 const account = {
-  user: "admin",
-  password: "password",
+  user: process.env.DB_USERNAME,
+  password: process.env.DB_PASSWORD,
 }
 
 const connectToDatabase = () => {
